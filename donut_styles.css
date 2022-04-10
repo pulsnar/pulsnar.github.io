@@ -1,0 +1,203 @@
+html, body{
+
+
+    left:0;
+    right:0;
+    margin: 0;
+    
+}
+body {
+    overflow-x: hidden;
+    background-color: #8376FF;
+}
+
+.BG {
+    position: absolute;
+}
+
+.Top {
+    top: 170px;
+    position: absolute;
+
+}
+.Logo {
+    top: 73;
+    left: 152;
+    position: absolute;
+}
+.Story {
+    top: 447;
+    left: 335;
+    position: absolute;
+}
+.Why {
+    top: 1118;
+    left: 696;
+    position: absolute;
+}
+.fadein {
+    -webkit-transition: all 1.8s;
+    transition: all 1.8s;
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+     transform: translateY(40px);
+}
+.inview {
+  opacity: 1;
+  -webkit-transform: none;
+          transform: none;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+
+.FirstBox {
+    top: 1684;
+    left: 256;
+    position: absolute;
+}
+.SecondBox {
+    top: 2500;
+    left: 256;
+    position: absolute;
+} 
+.Bottom {
+    top: 3173;
+    left: 0;
+    position: absolute;
+} 
+.PsInfo {
+    top: 1612;
+    left: 263;
+    position: absolute;
+}
+.Likes {
+    top: 2424;
+    left: 263;
+    position: absolute;
+}
+
+.Goal {
+    top: 3310;
+    left: 360;
+    position: absolute;
+}
+.Links {
+    top: 4021;
+    left: 253;
+    position: absolute;
+}
+
+.Info {
+    top: 4229;
+    left: 133;
+    position: absolute;
+}
+.Button {
+    transition-duration:550ms;
+    transition-timing-function: ease-in-out;
+    position: absolute;
+}
+
+.HiddenInfo .fadein {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+}
+.HiddenInfo .inview {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+    -webkit-transition-delay: 2.5s;
+            transition-delay: 2.5s;
+}
+.HiddenInfo {
+    top: 1758;
+    left: 628;
+    position: absolute;
+
+}
+.HiddenLikes {
+    top: 2676;
+    left: 456;
+    position: absolute;
+}
+.HiddenLikes .fadein {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+}
+.HiddenLikes .inview {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+    -webkit-transition-delay: 1.5s;
+            transition-delay: 1.5s;
+}
+.psdetail {
+    top: 1736;
+    left: 294;
+    position: absolute;
+}
+.oshimark {
+    top: 1715;
+    left: 1161;
+    position: absolute;
+}
+
+.Likes1 {
+    top: 2581;
+    left: 358;
+}
+.Likes2 {
+    top: 2581;
+    left: 790;
+}
+.Likes3 {
+    top: 2581;
+    left: 1223;
+}
+.Info1 {
+    top: 1738;
+    left: 496;
+}
+.Info2 {
+    top: 1851;
+    left: 657;
+}
+.Info3 {
+    top: 1963;
+    left: 605;
+}
+.Info4 {
+    top: 2071;
+    left: 729;
+}
+.HiddenGoals {
+    position: absolute;
+    top: 3668;
+    left: 332;
+}
+.HiddenGoals .fadein {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+}
+.HiddenGoals .inview {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+    -webkit-transition-delay: 1.5s;
+            transition-delay: 1.5s;
+}
+.Goal1 {
+    top: 3574;
+    left: 303;
+}
+.Goal2 {
+    top: 3574;
+    left: 1228;
+}
+
+.Button:hover {
+    filter: saturate(12);
+    
+    transform: scale(1.1,1.1);
+}
